@@ -1,0 +1,19 @@
+{
+    "devices": {
+        "BottleSorter": {
+            "enabled": false,
+            "masterNetId": "192.168.40.160.3.1",
+            "targetNetId": "192.168.40.160.1.1"
+        },
+        "CapSorter": {
+            "enabled": false,
+            "masterNetId": "192.168.40.160.3.1",
+            "targetNetId": "192.168.40.160.1.1"
+        },
+        "Uniline": {
+            "enabled": true,
+            "masterNetId": "192.168.40.160.3.1",
+            "targetNetId": "192.168.40.160.1.1"
+        }
+    }
+}
