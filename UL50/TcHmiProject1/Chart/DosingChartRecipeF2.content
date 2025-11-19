@@ -36,7 +36,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 6,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 10,
     "lineColor": {
@@ -57,7 +57,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 6,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -78,7 +78,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 6,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -99,7 +99,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 1,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -120,7 +120,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 2,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -144,7 +144,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 2,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -168,7 +168,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 2,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -192,7 +192,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 2,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -216,7 +216,7 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 1,
-    "pointDot": false,
+    "pointDot": true,
     "pointDotRadius": 3,
     "pointDotStrokeWidth": 1,
     "lineColor": {
@@ -239,6 +239,27 @@
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 6,
+    "pointDot": true,
+    "pointDotRadius": 1,
+    "pointDotStrokeWidth": 1,
+    "lineColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "pointDotFillColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "pointDotStrokeColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "fillMode": "None",
+    "fillTransparency": 50.0
+  },
+  {
+    "yAxisId": 12,
+    "legendName": "Moment 0",
+    "xScaleFactor": 1.0,
+    "yScaleFactor": 1.0,
+    "lineWidth": 3,
     "pointDot": true,
     "pointDotRadius": 1,
     "pointDotStrokeWidth": 1,
@@ -321,8 +342,8 @@
     "decimalPlaces": 0,
     "autoScaling": false,
     "unit": "mm",
-    "mainTickMinValue": "%s%PLC1.VIS.lrDispencer1LifterStopDosePositionShow%/s%",
-    "mainTickMaxValue": "%s%PLC1.VIS.lrDispencersLifterReadyPositionShow%/s%"
+    "mainTickMinValue": "%f%%s%PLC1.VIS.lrDispencer1LifterStartDosePositionShow%/s%-20%/f%",
+    "mainTickMaxValue": "%f%%s%PLC1.VIS.lrDispencersLifterReadyPositionShow%/s%+20%/f%"
   },
   {
     "id": 3,
@@ -451,8 +472,8 @@
     },
     "decimalPlaces": 0,
     "autoScaling": false,
-    "mainTickMinValue": "%s%PLC1.VIS.lrDispencer1LifterStopDosePositionShow%/s%",
-    "mainTickMaxValue": "%s%PLC1.VIS.lrDispencersLifterReadyPositionShow%/s%"
+    "mainTickMinValue": "%f%%s%PLC1.VIS.lrDispencer1LifterStartDosePositionShow%/s%-20%/f%",
+    "mainTickMaxValue": "%f%%s%PLC1.VIS.lrDispencersLifterReadyPositionShow%/s%+20%/f%"
   },
   {
     "id": 8,
@@ -555,8 +576,38 @@
       "color": "rgba(196, 15, 67, 1)"
     },
     "decimalPlaces": 1,
-    "autoScaling": true,
-    "unit": "Nm"
+    "autoScaling": false,
+    "unit": "Nm",
+    "mainTickMinValue": "%f%%s%ADS.PLC1.VIS.lrTorqMin%/s%-3%/f%",
+    "mainTickMaxValue": "%f%%s%ADS.PLC1.VIS.lrTorqMax%/s%+3%/f%"
+  },
+  {
+    "id": 12,
+    "showAxis": false,
+    "position": "Right",
+    "logarithmicScale": false,
+    "axisLabeling": "Number",
+    "labelFontColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "showLabels": true,
+    "axisColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "showAxisName": true,
+    "axisName": "%f%%l%Text737%/l%+' 0'%/f%",
+    "axisNameFontFamily": "RobotoCondensed",
+    "axisNameFontSize": 15,
+    "axisNameFontSizeUnit": "px",
+    "axisNameFontWeight": "Bold",
+    "axisNameFontColor": {
+      "color": "rgba(196, 15, 67, 1)"
+    },
+    "decimalPlaces": 0,
+    "autoScaling": false,
+    "unit": "Nm",
+    "mainTickMinValue": "%f%%s%ADS.PLC1.VIS.lrTorqMin%/s%-3%/f%",
+    "mainTickMaxValue": "%f%%s%ADS.PLC1.VIS.lrTorqMax%/s%+3%/f%"
   }
 ]
 </script>
@@ -1559,7 +1610,7 @@
                       "legendName": "%l%Text308%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1578,7 +1629,7 @@
                       "legendName": "%l%Text310%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1597,7 +1648,7 @@
                       "legendName": "%l%Text312%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1616,7 +1667,7 @@
                       "legendName": "%l%Text314%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1635,7 +1686,7 @@
                       "legendName": "%l%Text316%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1655,7 +1706,7 @@
                       "xScaleFactor": 1.0,
                       "yScaleFactor": 1.0,
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1673,7 +1724,7 @@
                       "yAxisId": 7,
                       "legendName": "%l%Text311%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1691,7 +1742,7 @@
                       "yAxisId": 8,
                       "legendName": "%l%Text313%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1709,7 +1760,7 @@
                       "yAxisId": 9,
                       "legendName": "%l%Text315%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -1727,7 +1778,7 @@
                       "yAxisId": 10,
                       "legendName": "%l%Text317%/l%",
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2038,7 +2089,7 @@
                       "legendName": "%l%Text308%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 6,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2057,7 +2108,7 @@
                       "legendName": "%l%Text310%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 6,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2076,7 +2127,7 @@
                       "legendName": "%l%Text312%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 6,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2095,7 +2146,7 @@
                       "legendName": "%l%Text314%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 6,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2114,7 +2165,7 @@
                       "legendName": "%l%Text316%/l%",
                       "defaultVisibility": true,
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2134,7 +2185,7 @@
                       "xScaleFactor": 1.0,
                       "yScaleFactor": 1.0,
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2152,7 +2203,7 @@
                       "yAxisId": 7,
                       "legendName": "%l%Text311%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2170,7 +2221,7 @@
                       "yAxisId": 8,
                       "legendName": "%l%Text313%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2188,7 +2239,7 @@
                       "yAxisId": 9,
                       "legendName": "%l%Text315%/l%",
                       "lineWidth": 2,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2206,7 +2257,7 @@
                       "yAxisId": 10,
                       "legendName": "%l%Text317%/l%",
                       "lineWidth": 1,
-                      "pointDot": false,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {
@@ -2224,7 +2275,26 @@
                       "yAxisId": 11,
                       "legendName": "Moment",
                       "lineWidth": 6,
-                      "pointDot": false,
+                      "pointDot": true,
+                      "pointDotRadius": 3,
+                      "pointDotStrokeWidth": 1,
+                      "lineColor": {
+                        "color": "rgba(196, 15, 67, 1)"
+                      },
+                      "pointDotFillColor": {
+                        "color": "rgba(196, 15, 67, 1)"
+                      },
+                      "pointDotStrokeColor": {
+                        "color": "rgba(196, 15, 67, 1)"
+                      },
+                      "fillColor": "%tr%Control::TcHmi.Controls.Beckhoff.TcHmiLineChart::LineGraphDescriptionFillColor%/tr%"
+                    },
+                    {
+                      "yAxisId": 12,
+                      "legendName": "Moment 0",
+                      "defaultVisibility": true,
+                      "lineWidth": 3,
+                      "pointDot": true,
                       "pointDotRadius": 3,
                       "pointDotStrokeWidth": 1,
                       "lineColor": {

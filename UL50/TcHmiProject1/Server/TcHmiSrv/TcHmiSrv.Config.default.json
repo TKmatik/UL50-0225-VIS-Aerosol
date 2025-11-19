@@ -2468,8 +2468,8 @@
     ],
     "DISCOVERY": 2,
     "ENDPOINTS": [
-        "http://127.0.0.1:13012",
-        "http://127.0.0.1:3014"
+        "http://127.0.0.1:13013",
+        "http://127.0.0.1:3015"
     ],
     "ETAGENABLED": true,
     "EXTENSIONS": {
@@ -6157,6 +6157,26 @@
             "MAPPING": "PLC1::VIS::lrSettleTimeMeasuringCappedBottleShow",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/UINT"
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.VIS.lrTorqMax": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::VIS::lrTorqMax",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.VIS.lrTorqMin": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::VIS::lrTorqMin",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/LREAL"
             },
             "USEMAPPING": true
         },
@@ -39794,6 +39814,8 @@
                 "ADS.PLC1.VIS.lrSealingDragingStationEndPosition": 3,
                 "ADS.PLC1.VIS.lrSealingDragingStationStartPosition": 3,
                 "ADS.PLC1.VIS.lrSettleTimeMeasuringCappedBottleShow": 3,
+                "ADS.PLC1.VIS.lrTorqMax": 3,
+                "ADS.PLC1.VIS.lrTorqMin": 3,
                 "ADS.PLC1.VIS.nDrawLenght": 3,
                 "ADS.PLC1.VIS.nExitConveyorVelocitySVShow": 3,
                 "ADS.PLC1.VIS.nFormTransportersAfterScrewerVelocitySVShow": 3,

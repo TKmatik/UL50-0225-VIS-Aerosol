@@ -12,7 +12,7 @@
     <HmiTitle>UBL50-0125</HmiTitle>
     <HmiVerboseLevel>2</HmiVerboseLevel>
     <HmiVersion>1.0.0.0</HmiVersion>
-    <HmiCommunicationServerPort>3014</HmiCommunicationServerPort>
+    <HmiCommunicationServerPort>3015</HmiCommunicationServerPort>
     <HmiLogTcHmiServerMessages>false</HmiLogTcHmiServerMessages>
     <HmiLogDesignerModeComMessages>false</HmiLogDesignerModeComMessages>
     <HmiDefaultLanguage>en</HmiDefaultLanguage>
@@ -21,7 +21,7 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>UL50_125</Name>
     <HmiCommunicationRouterPort>10205</HmiCommunicationRouterPort>
-    <HmiCommunicationServerAuthPort>13012</HmiCommunicationServerAuthPort>
+    <HmiCommunicationServerAuthPort>13013</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.760.54</HmiInitial>
     <HmiRecent>14.3.337.1</HmiRecent>
     <HmiServerNodeAdvancedView>True</HmiServerNodeAdvancedView>
