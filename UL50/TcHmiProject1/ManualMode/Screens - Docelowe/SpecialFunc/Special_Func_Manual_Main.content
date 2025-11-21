@@ -245,14 +245,15 @@
 </div>
 <div id="TcHmiRegion_83" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-height="949" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="51" data-tchmi-top-unit="px" data-tchmi-width="1545" data-tchmi-width-unit="px" data-tchmi-creator-visibility="Visible" data-tchmi-zindex="5">
 </div>
-<div id="TcHmiTextblock_2950" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="650" data-tchmi-left-unit="px" data-tchmi-text="%l%Text459%/l%" data-tchmi-top="1" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="17" data-tchmi-zindex="3" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-is-enabled="true">
+<div id="TcHmiTextblock_2950" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="650" data-tchmi-left-unit="px" data-tchmi-text="%l%Text894%/l%" data-tchmi-top="1" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="17" data-tchmi-zindex="3" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-is-enabled="true">
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
   "color": "rgba(162, 30, 77, 1)"
 }
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">[
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
   {
     "event": "%ctx%owner::Id|EventRegistrationMode=Resolve%/ctx%.onMouseDown",
     "actions": [
@@ -285,13 +286,14 @@
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/ContentPath",
-          "value": "ManualMode/Screens - Docelowe/Platins/Platinum_Manual_main.content"
+          "value": "ManualMode/Screens - Docelowe/Wicks/Wicks_Manual_main.content"
         },
         "asyncWait": true
       }
     ]
   }
-]</script>
+]
+</script>
 
 <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
 {

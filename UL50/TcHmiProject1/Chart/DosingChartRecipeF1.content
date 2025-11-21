@@ -2235,7 +2235,7 @@
   },
   {
     "yAxisId": 11,
-    "legendName": "Moment (R)",
+    "legendName": "%l%Text737%/l%",
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 6,
@@ -2256,7 +2256,7 @@
   },
   {
     "yAxisId": 12,
-    "legendName": "Moment 0",
+    "legendName": "%f%%l%Text737%/l%+' 0'%/f%",
     "xScaleFactor": 1.0,
     "yScaleFactor": 1.0,
     "lineWidth": 3,
@@ -2577,7 +2577,7 @@
     },
     "decimalPlaces": 1,
     "autoScaling": false,
-    "unit": "Nm",
+    "unit": "Bar",
     "mainTickMinValue": "%f%%s%ADS.PLC1.VIS.lrTorqMin%/s%-3%/f%",
     "mainTickMaxValue": "%f%%s%ADS.PLC1.VIS.lrTorqMax%/s%+3%/f%"
   },
@@ -2605,9 +2605,10 @@
     },
     "decimalPlaces": 0,
     "autoScaling": false,
-    "unit": "Nm",
-    "mainTickMinValue": "%f%%s%ADS.PLC1.VIS.lrTorqMin%/s%-3%/f%",
-    "mainTickMaxValue": "%f%%s%ADS.PLC1.VIS.lrTorqMax%/s%+3%/f%"
+    "unit": "Bar",
+    "showAxisIfNoData": true,
+    "mainTickMinValue": "%f%%s%ADS.PLC1.VIS.lrTorqMin%/s%-2%/f%",
+    "mainTickMaxValue": "%f%%s%ADS.PLC1.VIS.lrTorqMax%/s%+2%/f%"
   }
 ]
 </script>

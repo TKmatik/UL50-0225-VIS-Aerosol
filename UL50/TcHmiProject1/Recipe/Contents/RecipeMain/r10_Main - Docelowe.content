@@ -116,7 +116,7 @@
 </div>
 <div id="TcHmiImage_21" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="262" data-tchmi-height-unit="px" data-tchmi-top="159" data-tchmi-top-unit="px" data-tchmi-width="259" data-tchmi-width-unit="px" data-tchmi-src="%f%'/Photo/'+%s%PLC1.VIS.sRecipeIndexShow%/s%+'.jpg'%/f%" data-tchmi-zindex="11" data-tchmi-left="25">
 </div>
-<div id="TcHmiTextbox_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="900" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.VIS.sRecipeIndexShow%/s%" data-tchmi-top="104" data-tchmi-top-unit="px" data-tchmi-width="585" data-tchmi-width-unit="px" data-tchmi-text-font-size="25" data-tchmi-word-wrap="false" data-tchmi-multiline="false" data-tchmi-zindex="1">
+<div id="TcHmiTextbox_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="45" data-tchmi-height-unit="px" data-tchmi-left="900" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.VIS.nRecipeIndexShow%/s%" data-tchmi-top="104" data-tchmi-top-unit="px" data-tchmi-width="585" data-tchmi-width-unit="px" data-tchmi-text-font-size="25" data-tchmi-word-wrap="false" data-tchmi-multiline="false" data-tchmi-zindex="1">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,

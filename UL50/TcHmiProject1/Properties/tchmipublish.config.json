@@ -18,7 +18,7 @@
         "name": "TcHmiLua"
       },
       {
-        "publishServerExtension": false,
+        "publishServerExtension": true,
         "name": "TcHmiRecipeManagement"
       },
       {
@@ -47,9 +47,9 @@
     "temporaryPublishWithoutServerConfiguration": false,
     "abortOnErrors": true,
     "createPublishLog": false,
-    "salt": "9a59e27170be4e2092eac50963144837",
-    "encryptedTcHmiServerPassword": "/yRP2N2EoTGjO8CbqVz/mQ==",
-    "tcHmiServerHost": "192.168.40.160",
+    "salt": "01ffd5d02d614208819c298ec02df761",
+    "encryptedTcHmiServerPassword": "1y9Qot8VkEEOTzVP8LjPSg==",
+    "tcHmiServerHost": "192.168.40.180",
     "tcHmiServerPort": "1020",
     "uploadTimeout": "60",
     "connectionTimeout": "5",
@@ -61,7 +61,7 @@
     "launchBrowserAfterPublish": false,
     "createVirtualDirectoriesOnTargetSystem": false,
     "tcHmiServerUserName": "__SystemAdministrator",
-    "tcHmiDestinationUrl": "https://192.168.40.160:1020/",
+    "tcHmiDestinationUrl": "https://192.168.40.180:1020/",
     "publishConfiguration": "remote",
     "tcHmiIgnoreCertificateErrors": true
   }

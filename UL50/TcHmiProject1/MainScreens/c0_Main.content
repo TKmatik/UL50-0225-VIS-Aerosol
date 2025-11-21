@@ -5484,6 +5484,20 @@
                 },
                 "compareOperator": "==",
                 "logic": null
+              },
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "symbolExpression": "%s%ADS.PLC1.VIS.bPucksInserterEnableShow%/s%"
+                },
+                "compare2": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "value": true
+                },
+                "compareOperator": "==",
+                "logic": "AND"
               }
             ],
             "then": [
@@ -14331,7 +14345,7 @@
 </div>
 <div id="StdStationControl_202" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="861" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControls/StdStationControl.usercontrol" data-tchmi-top="429" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-scaption="%l%Text873%/l%" data-tchmi-zindex="3" data-tchmi-simgpath="Images\Icons\Podajnik.png" data-tchmi-simgpathh="Images\Icons\Podajnik" data-tchmi-udistate="6">
 </div>
-<div id="Popup_trendlineLegend_Main" data-tchmi-type="TcHmi.Controls.System.TcHmiPopup" data-tchmi-height="260" data-tchmi-height-unit="px" data-tchmi-left="576" data-tchmi-left-unit="px" data-tchmi-top="410" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px">
+<div id="Popup_trendlineLegend_Main" data-tchmi-type="TcHmi.Controls.System.TcHmiPopup" data-tchmi-height="260" data-tchmi-height-unit="px" data-tchmi-left="322" data-tchmi-left-unit="px" data-tchmi-top="97" data-tchmi-top-unit="px" data-tchmi-width="460" data-tchmi-width-unit="px" data-tchmi-creator-visibility="Collapsed">
 
 <script data-tchmi-target-attribute="data-tchmi-target-file" type="application/json">
 {
@@ -14366,5 +14380,7 @@
   "color": "rgba(196, 15, 67, 1)"
 }
 </script>
+</div>
+<div id="StdStationControl_203" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="80" data-tchmi-height-unit="px" data-tchmi-left="778" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControls/StdStationControl.usercontrol" data-tchmi-top="429" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-scaption="%l%Text896%/l%" data-tchmi-zindex="3" data-tchmi-simgpath="Images\Icons\Tloczenie.png" data-tchmi-simgpathh="Images\Icons\Podajnik" data-tchmi-udistate="6">
 </div>
 </div>

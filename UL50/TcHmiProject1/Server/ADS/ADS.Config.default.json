@@ -11,7 +11,7 @@
     "RUNTIMES": {
         "BottleSorter": {
             "ENABLED": true,
-            "NETID": "192.168.40.160.1.1",
+            "NETID": "192.168.40.180.1.1",
             "PORT": 856,
             "READ_ONLY": false,
             "SYMBOLS": {},
@@ -19,7 +19,7 @@
         },
         "CapSorter": {
             "ENABLED": true,
-            "NETID": "192.168.40.160.1.1",
+            "NETID": "192.168.40.180.1.1",
             "PORT": 855,
             "READ_ONLY": false,
             "SYMBOLS": {},
@@ -27,7 +27,7 @@
         },
         "HMI": {
             "ENABLED": true,
-            "NETID": "192.168.40.160.1.1",
+            "NETID": "192.168.40.180.1.1",
             "PORT": 853,
             "READ_ONLY": false,
             "SYMBOLS": {},
@@ -35,7 +35,7 @@
         },
         "PLC1": {
             "ENABLED": true,
-            "NETID": "192.168.40.160.1.1",
+            "NETID": "192.168.40.180.1.1",
             "PORT": 851,
             "READ_ONLY": false,
             "SYMBOLS": {},

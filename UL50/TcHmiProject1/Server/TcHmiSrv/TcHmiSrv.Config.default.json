@@ -24,7 +24,7 @@
         "Default.html"
     ],
     "DEFAULTEVENTEXTENSION": "TcHmiSqliteLogger",
-    "DEFAULTLOCALE": "en",
+    "DEFAULTLOCALE": "pl-PL",
     "DEFAULTTIMEFORMATLOCALE": "client",
     "DEFAULTTIMEZONE": "client",
     "DEFINITIONS": {
@@ -2754,7 +2754,7 @@
     "MAXREQUESTSIZE": 4194304,
     "MAXSESSIONS": 128,
     "PERMESSAGEDEFLATEENABLED": true,
-    "PROJECTNAME": "UL50_125",
+    "PROJECTNAME": "UL50_225",
     "PROJECTVERSION": "1.0.0.0",
     "RECORDING_MESSAGE_MAX_LENGTH": 5120,
     "REMOTESERVERS": {},
@@ -3485,6 +3485,23 @@
                     },
                     {
                         "comment": "Ilość detali na kołe\t\t| []"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.CapSorter.GVL_Recipe.lrCapSorterMoverHightShow": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "CapSorter::GVL_Recipe::lrCapSorterMoverHightShow",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Wysokość wózków (Kartezjanem dotknąć ssawkami gniazdo do wkładania zamknięć)"
                     }
                 ]
             },
@@ -39621,6 +39638,7 @@
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterCapHightShow": 3,
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterCapNeckHightShow": 3,
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterIntermediateTransporterItemsSetValueShow": 3,
+                "ADS.CapSorter.GVL_Recipe.lrCapSorterMoverHightShow": 3,
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterPreScrewerCheckValveShow": 3,
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterPreScrewerMultipleStartThreadShow": 3,
                 "ADS.CapSorter.GVL_Recipe.lrCapSorterPreScrewerNumberOfThreadTurnsShow": 3,

@@ -6124,7 +6124,7 @@
 ]
 </script>
 </div>
-<div id="Popup_RecipeSuggestions_1" data-tchmi-type="TcHmi.Controls.System.TcHmiPopup" data-tchmi-height="900" data-tchmi-height-unit="px" data-tchmi-left="133" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="1400" data-tchmi-width-unit="px" data-tchmi-creator-visibility="Visible" data-tchmi-zindex="75">
+<div id="Popup_RecipeSuggestions_1" data-tchmi-type="TcHmi.Controls.System.TcHmiPopup" data-tchmi-height="900" data-tchmi-height-unit="px" data-tchmi-left="133" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="1400" data-tchmi-width-unit="px" data-tchmi-creator-visibility="Collapsed" data-tchmi-zindex="75">
 <script data-tchmi-target-attribute="data-tchmi-target-file" type="application/json">
 {
   "path": "Dialogs/Dialogs_PopUp/NewRecipeSugestions.content"

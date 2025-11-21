@@ -1083,7 +1083,7 @@
     "Text734": "Rotation (R)",
     "Text735": "Rotation (C)",
     "Text736": "Torque (R)",
-    "Text737": "Torque",
+    "Text737": "Pressure",
     "Text738": "Gripper Actuator (R)",
     "Text733": "Gripper Actuator (C)",
     "Text739": "Capping Units",
@@ -1511,6 +1511,10 @@
     "Text890": "1. After creating a copy or a new recipe, change its name to the appropriate one and load the newly created recipe.\r\n2. After referencing the machine's components, enter the recipes screen and proceed to the dosing settings screen.\r\n3. At the bottom of the screen, there is a request for measurements of product components and format elements. Please take the measurements and enter the values ​​in the appropriately labeled fields.\r\n4. After entering the required values, press the \"Calculate\" button.\r\n5. Next, save the newly assigned parameter values ​​and reload the selected recipe so that the machine positions itself in the appropriately selected positions.\r\n6. After re-referencing, proceed to verify the selected positions and check if any corrections are necessary.\r\n7. The first station to check is the dispensers and dispenser grippers. Place four products, inserted in appropriately equipped formats, under the dispensers. Check whether the gripper height is correct. If not, correct the position and copy it to the recipe using the appropriate button. Then, calibrate the opening and closing of the grippers using the appropriate buttons.\r\n8.a) If the recipe calls for the insertion of caps, you must manually activate this station in the recipe. After activation, the machine will prompt you to base the cap insertion station. Next, place two sheets with product under the station, switch to manual mode, and manually move both actuators to adjust the station height (before doing so, press the \"Ignore Errors\" button if the cap hopper is empty). After manual adjustment, copy the height value to the recipe.\r\nb) If the recipe does not call for caps, the next station to set is the cap presence check. A correctly set check should not detect a product without a cap and should detect a product with a cap. If corrections are needed, move the machine to the correct height and copy the height value using the appropriate button.\r\n9. The next station to set is the Cappers and Grippers under the cappers. Place two sheets with products and a cap under the station and check if the heights match. If not, please correct and copy the entries to the recipe.\r\n10. The next station is a capping check. Place the product with the cap properly closed under the station and check that the lower sensor detects the top edge of the cap and the upper sensor remains uncovered.\r\n11. The last station to set is the Bottle Transfer Robot. Place two sheets with the finished product under the robot station. Then, in the Manual screen, in the Transferring - Robot insert, press the Ready button. The robot will move to the ready position. Next, press the \"Set 2 Bottles\" button. A screen will appear allowing you to control the robot's three axes. Check that everything is correct. After setting, press Grab and close the screen. Then press \"Set Reject\" and repeat the process, then press the Grab button. Then, place the bottles back under the robot station, press Ready, and now Pick 2 bottles. Then \"Set Labeller\" and repeat the positioning process. Once finished, remove the bottles and place them back under the robot to check the correct positions by clicking Pick -> Labeller, Pick -> Reject.\r\n12. The machine is now set up for the new recipe. Make sure you've installed the correct formatting elements and then go!",
     "Text891": "Recipe Suggestions",
     "Text892": "0 - No production process stops\r\n1 - Reject conveyor full\r\n2 - Labeling conveyor full\r\n3 - Machine failure",
-    "Text893": "Standby position"
+    "Text893": "Standby position",
+    "Text894": "Wicks",
+    "Text895": "Wicks Sorter",
+    "Text896": "Wicks feeder",
+    "Text897": "Roller capper"
   }
 }

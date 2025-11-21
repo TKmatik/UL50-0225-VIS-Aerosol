@@ -688,17 +688,6 @@
                   "value": "Hidden"
                 },
                 "asyncWait": true
-              },
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%ctrl%LrParam_1401::IsEnabled%/ctrl%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:general#/definitions/Boolean",
-                  "value": true
-                },
-                "asyncWait": true
               }
             ]
           },
@@ -723,17 +712,6 @@
                   "objectType": "StaticValue",
                   "valueType": "tchmi:framework#/definitions/Visibility",
                   "value": "Visible"
-                },
-                "asyncWait": true
-              },
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%ctrl%LrParam_1401::IsEnabled%/ctrl%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:general#/definitions/Boolean",
-                  "value": false
                 },
                 "asyncWait": true
               }
@@ -848,17 +826,6 @@
                   "value": "Hidden"
                 },
                 "asyncWait": true
-              },
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%ctrl%LrParam_1401::IsEnabled%/ctrl%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:general#/definitions/Boolean",
-                  "value": true
-                },
-                "asyncWait": true
               }
             ]
           },
@@ -883,17 +850,6 @@
                   "objectType": "StaticValue",
                   "valueType": "tchmi:framework#/definitions/Visibility",
                   "value": "Visible"
-                },
-                "asyncWait": true
-              },
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%ctrl%LrParam_1401::IsEnabled%/ctrl%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:general#/definitions/Boolean",
-                  "value": false
                 },
                 "asyncWait": true
               }

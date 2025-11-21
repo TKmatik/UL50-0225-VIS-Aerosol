@@ -1554,14 +1554,15 @@
     ]
   }
 ]</script>
-<div id="TcHmiTextblock_2803" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="503" data-tchmi-left-unit="px" data-tchmi-text="%l%Text459%/l%" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="251.5" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="17" data-tchmi-zindex="6" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-is-enabled="true">
+<div id="TcHmiTextblock_2803" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="503" data-tchmi-left-unit="px" data-tchmi-text="%l%Text894%/l%" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="251.5" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-font-size="17" data-tchmi-zindex="6" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-is-enabled="true">
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
   "color": "rgba(162, 30, 77, 1)"
 }
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">[
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
   {
     "event": "%ctx%owner::Id|EventRegistrationMode=Resolve%/ctx%.onMouseDown",
     "actions": [
@@ -1583,13 +1584,14 @@
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/ContentPath",
-          "value": "Dialogs/Dialogs_Recipes_Doses/Dosing_platynki.content"
+          "value": "Dialogs/Dialogs_Recipes_Doses/Dosing_knoty.content"
         },
         "asyncWait": true
       }
     ]
   }
-]</script>
+]
+</script>
 
 <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
 {

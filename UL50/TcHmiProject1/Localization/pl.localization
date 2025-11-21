@@ -1083,7 +1083,7 @@
     "Text734": "Rotacja (R)",
     "Text735": "Rotacja (O)",
     "Text736": "Moment (R)",
-    "Text737": "Moment",
+    "Text737": "Ciśnienie",
     "Text738": "Siłownik chwytania (R)",
     "Text733": "Siłownik chwytania (O)",
     "Text739": "Zakręcarki",
@@ -1521,6 +1521,10 @@
     "Text890": "1.Po stworzeniu kopii lub nowej receptury proszę zmienić jej nazwę na odpowiednią i wczytać nowo stworzoną recepturę\n2.Po zbazowaniu układów składowych maszyny proszę wejść w ekran receptur i przejść do ekranu nastaw dozowania\n3.Na dole ekranu znajduje się miejsce z zapytaniem o pomiary elementów składowych produktu i elementów formatowych - proszę wykonać pomiary i wpisać wartości w odpowiednio opisane pola\n4.Po wpisaniu zależy nacisnąć przycisk \"Oblicz\"\n5.Następnie należy zapisać nowo nadane wartości parametrów i ponownie wczytać wybraną recepturę, aby maszyna ustawiła się w odpowiednio dobranych pozycjach\n6.Po ponownym zbazowaniu przechodzimy do weryfikacji dobranych pozycji i sprawdzamy czy są potrzebne jakieś poprawki\n7.Pierwszą stacją do sprawdzenia są dozowniki i chwytaki dozowników. Podkładacie 4 produkty włożone w odpowiednio uzbrojone formatki pod dozowniki. Sprawdzacie czy wysokość chwytaków jest dobra, jeśli nie - korygujecie pozycję i kopiujecie ją do receptury odpowiednim przyciskiem. Następnie kalibrujecie otwarcie oraz zamknięcie chwytaków odpowiednimi przyciskami.\n8.a) Jeżeli receptura przewiduje wkładanie platynek wymagana jest ręczna aktywacja tej stacji w recepturze. Po aktywacji maszyna poprosi o bazowanie stacji wkładania platynek. Następnie należy  podstawić 2 formatki z produktem pod stację i przejść do trybu manualnego i wykonać ruch manualny obydwoma siłownikami aby dobrać odpowiednią wysokość stacji (przed tym wciskając przycisk ignorowania błedów jeżeli zasobnik platynek jest pusty). Po ustawieniu manualnym należy przepisać wartość wysokości do receptury.\n   b) Jeżeli receptura nie przewiduje platynek to następną stacją do ustawienia jest kontrola obecności zamknięcia. Poprawnie ustawiona kontrola powinna nie wykrywać produktu bez zamknięcia i wykrywać produkt z zamknięciem. Jeżeli potrzebne są poprawki proszę podjechać na poprawną wysokość i skopiować wartość wysokości odpowiednim przyciskiem\n9.Następna stacja do ustawienia to Zakręcarki i Chwytaki pod zakręcarkami. Należy ustawić 2 formatki z produktami i zamknięciem pod stacją i zobaczyć czy wysokości pasują. Jeżeli nie - proszę poprawić i skopiować pozycje do receptury.\n10.Kolejna stacja to kontrola poprawności zakręcenia. Należy ustawić produkt z poprawnie zakręconym zamknięciem pod stacją i sprawdzić czy dolny czujnik wykrywa górną krawędź zamknięcia a górny czujnik zostaje niezasłonięty.\n11.Ostatnia stacja do ustawienia to Robot transferujący butelki. Należy ustawić 2 formatki z gotowym produktem pod stacją robota. Następnie w ekranie Manualnym, we wkładce transfering - Robot, należy nacisnąć przycisk Ready - robot podjedzie do pozycji gotowości. następnie nacisnąć przycisk \"Set 2 Bottles\". Pojawi się ekran w którym będziemy mogli sterować 3 osiami robota - sprawdź czy jest dobrze. Po ustawieniu naciśnij Grab i zamknij ekranik. Następnie naciśnij \"Set Reject\" i wykonaj to samo, po czym odciśnij przycisk Grab. Następnie podłóż ponownie butelki pod stacją robota, naciśnij Ready i teraz Pick 2 bottles, a następnie \"Set Labeller\" i wykonaj ponownie ustawianie pozycji. Po wszystkim zabierz butelki i ponownie podłóż pod robota aby sprawdzić poprawność ustawionych pozycji po kolei klikając Pick -> Labeller, Pick -> Reject\n12.Maszyna jest ustawiona pod nową recepturę. Upewnij się że założyłeś poprawne elementy formatowe i ruszaj :)",
     "Text891": "Sugestie dla receptur",
     "Text892": "0 - Brak zatrzymań procesu produkcyjnego\r\n1 - Zapełniony odrzut\r\n2 - Zapełniony transporter etykieciarki\r\n3 - Awaria maszyny",
-    "Text893": "Pozycja gotowości"
+    "Text893": "Pozycja gotowości",
+    "Text894": "Knoty",
+    "Text895": "Sorter knotów",
+    "Text896": "Podajnik knotów",
+    "Text897": "Zakręcarka rolkowa"
   }
 }

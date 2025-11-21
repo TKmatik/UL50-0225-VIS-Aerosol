@@ -18,7 +18,7 @@
   "bottomRightUnit": "px"
 }
 </script>
-<div id="TcHmi_Controls_Beckhoff_TcHmiImage_64" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="538" data-tchmi-height-unit="px" data-tchmi-left="472" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="945" data-tchmi-width-unit="px" data-tchmi-src="/PhotosAndVideos/Imports/Images/TK 041494.png">
+<div id="TcHmi_Controls_Beckhoff_TcHmiImage_64" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="538" data-tchmi-height-unit="px" data-tchmi-left="472" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="945" data-tchmi-width-unit="px" data-tchmi-src="/PhotosAndVideos/Imports/Images/UL50-0225.png">
 </div>
 <div id="TcHmiTextblock_2222" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="13" data-tchmi-left-unit="px" data-tchmi-text="%l%Text694%/l%" data-tchmi-top="13" data-tchmi-top-unit="px" data-tchmi-width="190" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25">
 </div>

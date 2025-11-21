@@ -676,6 +676,13 @@
       "preloadBindings": true
     },
     {
+      "url": "Dialogs/Dialogs_Recipes_Doses/Dosing_knoty.content",
+      "preload": true,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
       "url": "Dialogs/Dialogs_Recipes_Doses/Dosing_main.content",
       "preload": true,
       "keepAlive": true,
@@ -737,6 +744,13 @@
       "keepAlive": false,
       "loadSync": false,
       "preloadBindings": false
+    },
+    {
+      "url": "Dialogs/Dialogs_Recipes_Screwers/Cup_Screwers_rolls.content",
+      "preload": true,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": true
     },
     {
       "url": "Dialogs/Dialogs_Robot_Out/Conf 1 bott pos.content",
@@ -1367,6 +1381,27 @@
       "keepAlive": false,
       "loadSync": false,
       "preloadBindings": false
+    },
+    {
+      "url": "ManualMode/Screens - Docelowe/Wicks/Wicks_Manual_1.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
+      "url": "ManualMode/Screens - Docelowe/Wicks/Wicks_Manual_2.content",
+      "preload": true,
+      "keepAlive": true,
+      "loadSync": false,
+      "preloadBindings": true
+    },
+    {
+      "url": "ManualMode/Screens - Docelowe/Wicks/Wicks_Manual_main.content",
+      "preload": true,
+      "keepAlive": true,
+      "loadSync": false,
+      "preloadBindings": true
     },
     {
       "url": "Pages/Content1.content",
@@ -2209,7 +2244,7 @@
         },
         {
           "objectType": "Condition",
-          "active": false,
+          "active": true,
           "parts": [
             {
               "if": [
@@ -2328,7 +2363,7 @@
                           "value": {
                             "objectType": "StaticValue",
                             "valueType": "tchmi:server#/definitions/adsRoute",
-                            "value": "192.168.40.155.1.1"
+                            "value": "192.168.40.190.1.1"
                           },
                           "asyncWait": true
                         },
@@ -2354,8 +2389,6 @@
               ]
             }
           ],
-          "showThenActions": false,
-          "showElseActions": false,
           "asyncWait": true,
           "showErrorActions": false,
           "error": [
@@ -2375,7 +2408,7 @@
         },
         {
           "objectType": "Condition",
-          "active": false,
+          "active": true,
           "parts": [
             {
               "if": [
@@ -2494,7 +2527,7 @@
                           "value": {
                             "objectType": "StaticValue",
                             "valueType": "tchmi:server#/definitions/adsRoute",
-                            "value": "192.168.40.151.1.1"
+                            "value": "192.168.40.185.1.1"
                           },
                           "asyncWait": true
                         },
@@ -2520,8 +2553,6 @@
               ]
             }
           ],
-          "showThenActions": false,
-          "showElseActions": false,
           "asyncWait": true,
           "showErrorActions": false,
           "error": [
@@ -4453,7 +4484,7 @@
                           "value": {
                             "objectType": "StaticValue",
                             "valueType": "tchmi:server#/definitions/adsRoute",
-                            "value": "192.168.40.151.1.1"
+                            "value": "192.168.40.185.1.1"
                           },
                           "asyncWait": true
                         },
@@ -4515,6 +4546,20 @@
                   },
                   "compareOperator": "==",
                   "logic": null
+                },
+                {
+                  "compare1": {
+                    "objectType": "Symbol",
+                    "valueType": "tchmi:general#/definitions/BOOL",
+                    "symbolExpression": "%s%BottleSorter.GVL_Recipe.bBottleSorterRecieverEnableShow|BindingMode=TwoWay%/s%"
+                  },
+                  "compare2": {
+                    "objectType": "StaticValue",
+                    "valueType": "tchmi:general#/definitions/BOOL",
+                    "value": true
+                  },
+                  "compareOperator": "==",
+                  "logic": "AND"
                 }
               ],
               "then": [
@@ -4763,7 +4808,7 @@
                           "value": {
                             "objectType": "StaticValue",
                             "valueType": "tchmi:server#/definitions/adsRoute",
-                            "value": "192.168.40.155.1.1"
+                            "value": "192.168.40.190.1.1"
                           },
                           "asyncWait": true
                         },
@@ -5654,7 +5699,7 @@
       "pl-PL": "Localization/Control-TcHmiEventGrid-pl-PL.localization"
     }
   },
-  "languageFallback": "en",
+  "languageFallback": "pl-PL",
   "disableLoadingOptimization": false,
   "creatorSettings": {
     "viewport": {

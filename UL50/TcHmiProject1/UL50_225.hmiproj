@@ -15,11 +15,11 @@
     <HmiCommunicationServerPort>3015</HmiCommunicationServerPort>
     <HmiLogTcHmiServerMessages>false</HmiLogTcHmiServerMessages>
     <HmiLogDesignerModeComMessages>false</HmiLogDesignerModeComMessages>
-    <HmiDefaultLanguage>en</HmiDefaultLanguage>
+    <HmiDefaultLanguage>pl-PL</HmiDefaultLanguage>
     <TargetFrameworkMoniker>native,Version=v1.12.0,Profile=tchmi</TargetFrameworkMoniker>
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
-    <Name>UL50_125</Name>
+    <Name>UL50_225</Name>
     <HmiCommunicationRouterPort>10205</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13013</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.760.54</HmiInitial>
@@ -264,6 +264,9 @@
     <Content Include="Dialogs\Dialogs_Recipes_Doses\Dosing_faza1-2-3-4_small.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Dialogs\Dialogs_Recipes_Doses\Dosing_knoty.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Dialogs\Dialogs_Recipes_Doses\Dosing_ropp.content">
       <SubType>Content</SubType>
       <Cache>True</Cache>
@@ -281,6 +284,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Dialogs\Dialogs_Recipes_Doses\Dosing_wagi.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Dialogs\Dialogs_Recipes_Screwers\Cup_Screwers_rolls.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Dialogs\Dialogs_Recipes_Screwers\Cup_Screwers_param_small.content">
@@ -1172,6 +1178,9 @@
     <Content Include="Imports\Images\pompka ucf.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Imports\Images\UL50-0225.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="KeyboardLayouts\Polish %28214%29 - basic.keyboard.json">
       <SubType>Content</SubType>
     </Content>
@@ -1429,6 +1438,15 @@
     <Content Include="ManualMode\Screens - Docelowe\TECH2.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ManualMode\Screens - Docelowe\Wicks\Wicks_Manual_1.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ManualMode\Screens - Docelowe\Wicks\Wicks_Manual_2.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ManualMode\Screens - Docelowe\Wicks\Wicks_Manual_main.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="packages.config">
       <SubType>Content</SubType>
     </Content>
@@ -1543,6 +1561,7 @@
     <Content Include="Server\ADS\ADS.Config.default.json">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Server\ADS\ADS.Config.default.json" />
     <Content Include="Server\ADS\ADS.Config.default.json" />
     <Content Include="Server\ADS\ADS.Config.remote.json">
       <SubType>Content</SubType>
@@ -1861,6 +1880,7 @@
     <Folder Include="ManualMode\Screens - Docelowe\BSorter" />
     <Folder Include="ManualMode\Screens - Docelowe\CSorter" />
     <Folder Include="ManualMode\Screens - Docelowe\Dosing" />
+    <Folder Include="ManualMode\Screens - Docelowe\Wicks" />
     <Folder Include="ManualMode\Screens - Docelowe\SpecialFunc" />
     <Folder Include="ManualMode\Screens - Docelowe\ROPP" />
     <Folder Include="ManualMode\Screens - Docelowe\Screwers" />
